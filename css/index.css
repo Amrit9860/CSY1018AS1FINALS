@@ -1,0 +1,78 @@
+/*nav{background-color:#cfff7c;}
+nav ul {
+justify-content:space-around;
+display: flex;
+}
+nav ul li {
+list-style:none;
+margin-right: 5%;
+}
+nav ul li a {
+display:block;
+color: #813dff;
+text-align:center;
+font-size: 25px;
+text-decoration:none; 
+box-shadow: 5px 5px lightblue;
+}
+nav ul li a:hover{
+	font-size: 30px;
+	color:#bcda31;
+	box-shadow: 5px 5px lightgreen;
+}*/
+@keyframes run {
+0% {  left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+68% { left: -200%; }
+72% { left: -300%; }
+88% { left: -300%; }
+100% { left:-400%; }
+}
+body { margin: 0% ; } 
+.slider { overflow: hidden;}
+.slider section img { width: 20%;height: 500px;float: left;}
+.slider section { position: relative; width: 500%;margin: 0;left: 0;text-align:left;animation: 25s run infinite; }
+span{font-size: 20px;font-family: tahoma;margin-top: -10px;}
+.fb_tw, .insta-google{
+		background-color: #ffffff;
+		display: flex;
+		height: 100px;
+		width: 100%;
+		justify-content:center;
+		margin-top: 10%;
+		}
+		.facebook-twitter{margin-left: 10%;}
+		.insta-google{margin-left:-3%;}
+
+		.social:hover {
+			transform: rotate(360deg);
+			color: red;
+		}
+        .facebook-twitter .media a{
+        	font-size: 20px;
+        }
+		.a,.b,.c,.d,.e,.f{display: flex; margin: 1%;}
+		.f{margin-left: 7%;}
+		
+		.social{margin: 1% 1%;display: block;}
+		.social img{border-radius: 50%; height: 100px;width: 100px;}
+		.media{margin:-4% 2% 2% 2%; display: block;}
+		
+			footer{margin: 40px 0px;}
+@media screen and (max-width: 720px){
+	nav ul {flex-direction:row;}
+	nav ul li{width: 96%;}
+	nav ul li a{font-size: 17px;}
+	nav ul li a:hover{font-size: 15px;color: orange;}
+	.slider section img{width: 20%;height: 200px;}
+	.fb_tw{flex-direction: column; margin-top: 10%;}
+	.insta-google{flex-direction: column; margin-top: 45%; margin-left: 1%;}
+	.media a{font-size: 7px;}
+	.social{margin: 5%;}
+	.social img{height: 50px;width: 50px;}
+	.a,.b,.c,.d,.e,.f{margin:10% 10% 10% -15%;}
+    .f{margin-left:-15%;}
+}

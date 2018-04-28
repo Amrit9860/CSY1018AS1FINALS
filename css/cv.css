@@ -1,0 +1,69 @@
+
+.boxed, .boxed1, .boxed2, .boxed3{
+	display: flex;
+	border:double black 2px;
+	margin: 1% 15% 1% 13%;
+	width: 70%;
+
+}
+
+.box{
+
+	width: 98%;
+	margin: 1%;
+	background-color: red;
+}
+.box1{
+	width: 98%;
+	margin: 1%;
+	background-color: green;
+}
+.box2{width: 98%;margin: 1%;background-color: grey;}
+h2{
+	font-size: 30px;
+	font-family: tahoma;
+    text-align: center;
+}
+p{
+	margin-left: 10%;
+	color: white;
+}
+.myPro {
+  width: 98%;
+  margin: 1%;
+  background-color: #eee;height: 10px;
+
+}
+
+.my, .my1, .my2, .my3, .my4, .my5, .my6, .my7 {
+  height: 10px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 10px;
+  color: black;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius:20%;}
+.my{width: 95%;}
+.my1{width:75% ;}
+.my2{width:80%; }
+.my3{width: 50%;}
+.my4{width:90% }
+.my5{width: 45%;}
+.my6{width: 5%;}
+.my7{width: 15%;}
+.hehe{display: flex;}
+.haha1{margin-left: 15%;}
+.box3{display: flex; width: 70%; margin:1%; flex-direction: row;}
+footer{width: 96%; margin:1%; background-color: grey;}
+@media screen and (max-width: 720px){
+	.box p{font-size: 11px;}
+.boxed, .boxed1, .boxed2{width: 98%; margin:1%;}
+.boxed3, .box3{display: flex; flex-direction: column;}
+.myho{width: 100%;}
+.meee{margin-top: -45%;}
+.haha1{margin-left: 1%;}
+
+
+
+
+}

@@ -1,0 +1,14 @@
+body{
+	width: 96%;
+	margin:2%;
+}
+h2{
+	text-align: center;
+}
+p{
+	width: 70%;
+	margin: 1% 14%;
+}
+@media screen and (max-width: 768px){
+	img{width: 96%;margin: 1%;}
+}

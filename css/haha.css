@@ -1,0 +1,128 @@
+body{
+	margin:1%;
+	padding: 1%;
+	background-color: #EAE4E5;
+}
+form{
+margin:-5% 0% 3% 75%;
+display: flex;
+
+}
+input[type=text]{
+	width: 190px;
+height: 50px;
+}
+h1{
+	margin: 0 10%;
+
+}
+
+/*nav{background-color: transparent;}
+nav ul {
+
+justify-content:center;
+display: flex;
+}
+nav ul li {
+list-style:none;
+margin-right: 5%;
+
+}
+.logo img{
+	height: 80px;
+	width: 80px;
+	margin-left: -28%;
+	margin-top: -25%;
+}
+nav ul li a {
+display:block;
+text-align:center;
+font-size: 25px;
+text-decoration:none; 
+box-shadow: 5px 5px lightblue;
+}
+nav ul li a:hover{
+	font-size: 30px;
+	color: green;
+	box-shadow: 5px 10px lightgreen;
+
+}*/
+.line{
+	width:96%;
+
+height: 20px;
+border-bottom: 3px solid #C18F6E;
+position: absolute;
+
+}
+section{
+	margin: 150px 120px;
+	display: flex;
+}
+.section1 img{
+	height: 420px;
+	width: 350px;
+	border-radius: 50%;
+	margin-bottom: -10%;
+}
+
+.section1 img:hover{
+	opacity: 0.8;
+
+}
+.section1{
+	margin-right: 10%;
+	margin-top: 10%;
+	}
+.section2 h2{
+	font-size: 80px;
+}
+.section2 h3{
+	font-size: 30px;
+	margin-top: -70px;}
+	.section3{
+		display: flex;
+
+	}
+	.section4{
+		margin: 1%;
+	}
+	.section4 img{
+		border-radius: 50%;
+	}
+	.section2 p{
+		margin-left: 50px;
+	}
+	img{
+		border-radius: 50%;
+	}
+	footer{
+		background-color: #E63555;
+		display: flex;
+		height: 15%;
+		width: 100%;
+		justify-content:center;}
+	.foot1{display: flex; margin: 1%;}
+	.footer1{margin: 1% 1%;display: block;}
+	.footer2{margin:-4% 2% 2% 2%; display: block;}
+	.foot{display: flex;}
+@media screen and (max-width: 768px){
+	
+    form{margin: 2% 0% 6% 0%; }
+    input[type=text]{width: 130px;height: 40px;}
+	.line{width: 96%;margin:1%;}
+	section{flex-direction: column;margin:0% -2%; }
+	.section1 img{width: 250px;height: 290px;margin:0% 10%;}
+	.section3{flex-direction: column;margin: 0% 25%;}
+	section p{flex-direction: row;}
+	.section2 h2,.section2 h3{margin-left: 24%;}
+     footer{flex-direction: column;height: 305px;}
+     footer .foot1{margin-left: 20%}
+     
+
+}
+/*@media screen and (min-width: 1800px){
+	 footer{;height: 200px; margin-top: 5%;}
+.section1 img{width: 490px;height: 490px;margin: -35% 50%;}
+	}*/
+
